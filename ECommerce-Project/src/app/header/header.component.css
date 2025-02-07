@@ -1,5 +1,6 @@
 .nav {
     display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 h1 {
@@ -11,13 +12,12 @@ h1 {
     text-shadow: rgba(152, 224, 93, 0.966) 2px 2px; 
 }
 .nav-search {
-  display: flex;
-  margin-left: 20px;
-  margin-right: 20px;
-  width: 50%;
+    width: 40%;
+    display: flex;
+    margin-left: 20px;
 }
 .nav-search input {
-    width: 80%;
+    width: 50%;
     font-family: sans-serif;
     font-size: 15px;
     padding: 10px;
@@ -40,6 +40,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 40%;
 }
 .nav ul {
     list-style: none;

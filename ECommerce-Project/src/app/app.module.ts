@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +15,12 @@ import { LoginComponent } from './login/login.component';
     HeaderComponent,
     HomeComponent,
     SellerAuthComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
